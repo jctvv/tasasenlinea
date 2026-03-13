@@ -3,7 +3,7 @@ name: Sincronizar datos desde Google Sheets
 on:
   schedule:
     # Ejecutar cada hora (puedes ajustar la frecuencia)
-    - cron: '0 * * * *'
+    - cron: '*/30 * * * *'
   workflow_dispatch:  # Permite ejecutarlo manualmente
 
 jobs:
